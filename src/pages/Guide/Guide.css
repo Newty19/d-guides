@@ -40,4 +40,41 @@
     color: red;
     font-size: 1.5rem;
   }
+  /* Estilos para el contenedor de la imagen y los logros */
+.top-title {
+  display: flex;
+  align-items: center; /* Centra la imagen y los logros verticalmente */
+  justify-content: center; /* Centra los elementos en el eje horizontal */
+  gap: 20px; /* Espacio entre la imagen y el contenido de los logros */
+  width: 100%; /* Asegura que ocupe todo el espacio disponible */
+  margin-top: 20px; /* Espacio por encima */
+}
+
+/* Estilo para la imagen */
+.top-title img {
+  width: 150px; /* Tamaño fijo de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+
+/* Estilo para los logros */
+.top-title div {
+  max-width: 500px; /* Limita el ancho de la lista de logros */
+  text-align: left; /* Alineación a la izquierda para los logros */
+}
+  /* Estilos para un h2 más elegante */
+h2 {
+  font-size: 28px; /* Tamaño de fuente grande */
+  font-weight: bold; /* Negrita para mayor énfasis */
+  color: #333; /* Color oscuro para el texto */
+  text-align: center; /* Centrado del título */
+  letter-spacing: 1px; /* Espaciado entre letras para un aspecto más limpio */
+  text-transform: uppercase; /* Convertir texto a mayúsculas */
+  margin: 20px 0; /* Espaciado superior e inferior */
+  position: relative; /* Para agregar un efecto de línea debajo */
+  padding-bottom: 10px; /* Espacio adicional para la línea */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave en el texto */
+
+}
+
   

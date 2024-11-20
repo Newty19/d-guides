@@ -1,8 +1,7 @@
 import { useParams } from 'react-router-dom';
 import guides from '../../data/guides.json';
 import BackButton from '../../util/Back/Back';
-import { Link } from 'react-router-dom';
-import './Guide.css'; // Asegúrate de crear un archivo de estilos
+import './Guide.css';
 
 function Guide() {
   const { id } = useParams(); // Obtener el ID de la URL
@@ -11,6 +10,8 @@ function Guide() {
   if (!guide) {
     return <h2 className="guide-error">Guía no encontrada</h2>; // Mostrar error si no existe la guía
   }
+
+  const imagePath = require(`../../util/Images/Bosses/${guide.imageBoss}`); // Construye la ruta dinámica
 
   return (
     <div className="guide-container">
@@ -28,6 +29,21 @@ function Guide() {
           referrerPolicy="strict-origin-when-cross-origin" 
           allowFullScreen
         ></iframe>
+      </div>
+      
+      <div className="top-title">
+        <img src={imagePath} alt="Minilubo Albino"/>
+        <div>
+          <h2>Logros</h2>
+          <ul>
+            {Object.entries(guide.logros).map(([key, logro], index) => (
+              <li key={index} className="tooltip-container">
+                {logro.nombre}
+                <div className="tooltip">{logro.descripcion}</div>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
       
       <div className="back-button">

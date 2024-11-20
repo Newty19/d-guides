@@ -1,58 +1,54 @@
 [
     { "id": 1,
-      "title": "Cómo comenzar en Dofus 3",
-      "content": "Guia de sets",
+      "title": "Mazmorra de Incarnam",
+      "content": "Guía rápida para ganarle al Minilubo Albino",
       "url": "https://www.youtube.com/embed/yf_ZLFTiFZg?si=cc8kJTcjFUW9fN7S",
-      "imageUrl": "https://img.youtube.com/vi/yf_ZLFTiFZg/sddefault.jpg"
+      "imageUrl": "https://img.youtube.com/vi/yf_ZLFTiFZg/sddefault.jpg",
+      "imageBoss": "Minilubo_Albino.webp",
+      "logros" : {
+        "logro1": {
+          "nombre": "Zombie",
+          "descripcion": "Solo puedes utilizar 1 PM"
+        },
+        "logro2": {
+          "nombre": "Primera Posición",
+          "descripcion": "Matar en primer lugar al jefe de la mazmorra."
+        }
+      }
     },
     { "id": 2,
-      "title": "Rework de Escudos",
-      "content": "Descubre el rework de los escudos",
+      "title": "Mazmorra de los Campos",
+      "content": "Guía rápida para ganarle al Girasol Hambriento",
       "url": "https://www.youtube.com/embed/uNOizSdEuqg?si=wtqWOBsmr5NtShW9",
-      "imageUrl": "https://img.youtube.com/vi/uNOizSdEuqg/sddefault.jpg"
+      "imageUrl": "https://img.youtube.com/vi/uNOizSdEuqg/sddefault.jpg",
+      "imageBoss": "Girasol_Hambriento.webp",
+      "logros": {
+        "logro1": {
+          "nombre": "Pegajoso",
+          "descripcion": "Terminar tu turno a lado de un aliado. (Invocaciones SI cuentan)."
+        },
+        "logro2": {
+          "nombre": "Primera Posición",
+          "descripcion": "Matar en primer lugar al jefe de la mazmorra."
+        }
+      }
     },
     { "id": 3,
-      "title": "Cómo ganar kamas rápido",
-      "content": "Métodos efectivos para conseguir kamas...",
+      "title": "Mazmorra del Jalato Real",
+      "content": "Guía rápida para ganarle al Jalato Real",
       "url": "https://www.youtube.com/embed/rdrpom1sgqg?si=jP0Op9771bIAjihX",
-      "imageUrl": "https://img.youtube.com/vi/rdrpom1sgqg/sddefault.jpg" 
-    },
-    { "id": 1,
-      "title": "Cómo comenzar en Dofus 3",
-      "content": "Guia de sets",
-      "url": "https://www.youtube.com/embed/yf_ZLFTiFZg?si=cc8kJTcjFUW9fN7S",
-      "imageUrl": "https://img.youtube.com/vi/yf_ZLFTiFZg/sddefault.jpg"
-    },
-    { "id": 2,
-      "title": "Rework de Escudos",
-      "content": "Descubre el rework de los escudos",
-      "url": "https://www.youtube.com/embed/uNOizSdEuqg?si=wtqWOBsmr5NtShW9",
-      "imageUrl": "https://img.youtube.com/vi/uNOizSdEuqg/sddefault.jpg"
-    },
-    { "id": 3,
-      "title": "Cómo ganar kamas rápido",
-      "content": "Métodos efectivos para conseguir kamas...",
-      "url": "https://www.youtube.com/embed/rdrpom1sgqg?si=jP0Op9771bIAjihX",
-      "imageUrl": "https://img.youtube.com/vi/rdrpom1sgqg/sddefault.jpg" 
-    },
-    { "id": 1,
-      "title": "Cómo comenzar en Dofus 3",
-      "content": "Guia de sets",
-      "url": "https://www.youtube.com/embed/yf_ZLFTiFZg?si=cc8kJTcjFUW9fN7S",
-      "imageUrl": "https://img.youtube.com/vi/yf_ZLFTiFZg/sddefault.jpg"
-    },
-    { "id": 2,
-      "title": "Rework de Escudos",
-      "content": "Descubre el rework de los escudos",
-      "url": "https://www.youtube.com/embed/uNOizSdEuqg?si=wtqWOBsmr5NtShW9",
-      "imageUrl": "https://img.youtube.com/vi/uNOizSdEuqg/sddefault.jpg"
-    },
-    { "id": 3,
-      "title": "Cómo ganar kamas rápido",
-      "content": "Métodos efectivos para conseguir kamas...",
-      "url": "https://www.youtube.com/embed/rdrpom1sgqg?si=jP0Op9771bIAjihX",
-      "imageUrl": "https://img.youtube.com/vi/rdrpom1sgqg/sddefault.jpg" 
+      "imageUrl": "https://img.youtube.com/vi/rdrpom1sgqg/sddefault.jpg",
+      "imageBoss": "Jalato_Real.webp",
+      "logros": {
+        "logro1": {
+          "nombre": "Pusilanime",
+          "descripcion": "Terminar tu turno a lado de un enemigo."
+        },
+        "logro2": {
+          "nombre": "Blitzkrieg",
+          "descripcion": "Matar a los enemigos antes de que inicie su turno."
+        }
+      }
     }
-    
   ]
   

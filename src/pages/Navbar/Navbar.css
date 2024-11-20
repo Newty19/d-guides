@@ -53,3 +53,71 @@
     top: -0.5rem;
     right: -0.5rem;
   }
+  /* Estilos para los logros */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Estilo del contenedor del tooltip (se ve como un botón) */
+.tooltip-container {
+  position: relative;
+  background-color: #4CAF50; /* Color de fondo del "botón" */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: background-color 0.3s, transform 0.2s; /* Transiciones */
+}
+
+/* Efecto de hover sobre el "botón" */
+.tooltip-container:hover {
+  background-color: #45a049; /* Color más oscuro cuando pasa el mouse */
+  transform: translateY(-2px); /* Desplazamiento para simular "clic" */
+}
+
+/* Estilo del tooltip */
+.tooltip {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Posición del tooltip arriba del texto */
+  left: 50%;
+  margin-left: -100px; /* Centrado */
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+/* Flecha del tooltip */
+.tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%; /* Coloca la flecha en la parte inferior */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Mostrar el tooltip cuando el mouse está sobre el logro */
+.tooltip-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
